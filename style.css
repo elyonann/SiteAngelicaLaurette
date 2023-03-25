@@ -1,4 +1,29 @@
+/*body {
+    background-image: url("https://github.com/elyonann/SiteAngelicaLaurette/blob/main/image/Captura%20de%20tela%202023-03-25%20121918.png?raw=true");
+    background-repeat: no-repeat;
+    background-color: azure;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-blend-mode:
+}*/
+
 header {
-    font-size: x-large;
+    background-color: antiquewhite;
+    height: 250px;
     text-align: center;
+}
+
+header nav {
+    list-style: nome;
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+footer {
+    bottom: 0;
 }

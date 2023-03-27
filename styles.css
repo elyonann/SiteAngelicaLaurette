@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+header {
+    position: absolute;
+    width: 1342px;
+    height: 41px;
+    left: 49px;
+    top: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+header p {
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+header h2 {
+    float: right;
+}
+
+.hero {
+    width: auto;
+    height: 1332px;
+    background: #DFCCC2;
+}
+
+.img1 {
+    position: absolute;
+    width: 412px;
+    top: 171px;
+    left: 528px;
+}
+
+.img2 {
+    position: absolute;
+    width: 243px;
+    top: 179px;
+    left: 875px;
+}
+
+.img3 {
+    position: absolute;
+    width: 197px;
+    top: 489px;
+    left: 439px;
+}
+
+.img4 {
+    position: absolute;
+    width: 182px;
+    left: 830px;
+    top: 530px;
+}
+
+.hero p {
+    position: absolute;
+
+    font-family: 'lexend Deca';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    color: white;
+    left: 270px;
+    top: 222px;
+}

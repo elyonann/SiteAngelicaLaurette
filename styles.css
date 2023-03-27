@@ -58,9 +58,22 @@ header h2 {
     top: 530px;
 }
 
-.hero p {
+.img5 {
     position: absolute;
+    width: 365px;
+    left: 1000px;
+    top: 900px;
+}
 
+.img6 {
+    position: absolute;
+    width: 312px;
+    top: 850px;
+    left: 100px;
+}
+
+.hero-p1 {
+    position: absolute;
     font-family: 'lexend Deca';
     font-style: normal;
     font-size: 36px;
@@ -69,4 +82,66 @@ header h2 {
     color: white;
     left: 270px;
     top: 222px;
+}
+
+.hero-p2 {
+    position: absolute;
+    width: 194px;
+    top: 500px;
+    left: 1000px;
+    font-family: 'lexend Deca';
+    font-style: normal;
+    color: #6E645F;
+    text-shadow: 0px 0px 4px 4px (rgba(0, 0, 0, 0.25));
+}
+
+.hero-p3 {
+    position: absolute;
+    color: #6E645F;
+    text-shadow: 0px 0px 4px 4px (rgba(0, 0, 0, 0.25));
+    font-size: 20px;
+    top: 1050px;
+    left: 450px;
+}
+
+.hero-p4 {
+    position: absolute;
+    color: white;
+    text-shadow: 0px 0px 4px 4px (rgba(0, 0, 0, 0.25));
+    font-size: 36px;
+    top: 1000px;
+    left: 450px;
+}
+
+.hero2 {
+    background: #C5CEBD;
+    width: auto;
+    height: 1065px;
+}
+
+.hero2-img1 {
+    position: absolute;
+    width: 558px;
+    top: 1500px;
+}
+
+.hero2-p1 {
+    position: absolute;
+    font-family: 'lexend Deca';
+    font-style: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    color: white;
+    left: 480px;
+    top: 1600px;
+}
+
+.hero2-p2 {
+    position: absolute;
+    color: #6E645F;
+    text-shadow: 0px 0px 4px 4px (rgba(0, 0, 0, 0.25));
+    font-size: 20px;
+    top: 1800px;
+    left: 700px;
 }

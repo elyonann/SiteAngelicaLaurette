@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Exo+2:ital,wght@1,200&family=Zilla+Slab:wght@300&display=swap');
+
+header{
+    background: rgb(200, 200, 200);
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    margin-right: 50px;
+ 
+}
+
+header a {
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+    color: #000;
+}
+
+header li:hover {
+    font-size: 22px;
+    box-shadow: 0px 0px 1px;
+    background-color: rgb(210, 210, 210)
+}
+
+header li {
+    padding: 5px;
+    transition: 0.4s;
+}
+
+body {
+    background: lightgray;    
+
+}
+
+.hero1 {
+    height: 1080px;
+    background-image: url(/SiteAngelicaLaurette/img/salaoangelica.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero1-div1 {
+    position: absolute;
+    border: 2px solid #f3f3f3f;
+    top: 200px;
+    width: 80%;
+    margin-left: 10%;
+    height: 800px;
+}
+
+.hero1-div2 {
+    position: absolute;
+    border: 2px solid #333;
+    background: lightgray;
+    width: 100%;
+    margin-left: ;
+    height: 800px;
+    opacity: 0.4;
+    box-shadow: 0px 0px 50px #000;
+}
+
+.hero1 h1 {
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 45px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: -2px -2px 4px #000;
+}
+
+.hero1 p {
+    font-family: 'Zilla Slab', serif;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 25px;
+    color: whitesmoke;
+    text-shadow: -2px -2px 4px #000;
+}
+
+.hero2 {
+    height: 1080px;
+}
+
+.hero3 {
+    height: 1080px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backface-visibility: inherit;
+}
+
+/*CSS FOOTER*/
+
+footer {
+    margin-top: 20vh;
+    margin: 0 auto;
+    background-color: rgb(200, 200, 200);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+ footer li {
+    display: inline-block;
+    flex-direction: row;
+    padding: 10px;
+ }
+  
+
+.rodape img {
+    width: 50px;
+}
+

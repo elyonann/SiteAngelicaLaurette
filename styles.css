@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Exo+2:ital,wght@1,200&family=Zilla+Slab:wght@300&display=swap');
 
 header{
-    background: rgb(200, 200, 200);
+    background: #DFCCC2;
+}
+
+header img {
+    position: absolute;
+    height: 70px;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 header h1 {
@@ -32,7 +39,8 @@ header li {
 }
 
 body {
-    background: lightgray;    
+    background: rgb(200,200,200);
+    background: linear-gradient(180deg, rgba(200,200,200,1) 20%, #DFCCC2 100%);
 
 }
 
@@ -46,7 +54,7 @@ body {
 
 .hero1-div1 {
     position: absolute;
-    border: 2px solid #f3f3f3f;
+    border: 2px solid #F3F3F3;
     top: 200px;
     width: 80%;
     margin-left: 10%;
@@ -58,7 +66,6 @@ body {
     border: 2px solid #333;
     background: lightgray;
     width: 100%;
-    margin-left: ;
     height: 800px;
     opacity: 0.4;
     box-shadow: 0px 0px 50px #000;
@@ -84,54 +91,122 @@ body {
 }
 
 .hero2 {
-    height: 1080px;
+    height: 1500px;
+}
+
+.hero-div1 p {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 250px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px;
+}
+
+.hero-div1 img{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    width: 40%;
+    margin-left: 5px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px;
+}
+
+
+.hero2-div2 img {
+    width: 40%;
+    display: inline-block;
+    float: left;
+    margin-top: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px;
+}
+
+.hero2-div2 p {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Zilla Slab', serif;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 300px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px;
 }
 
 .hero3 {
-    height: 1080px;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg");
+    height: 500px;
+    background-image: url(/SiteAngelicaLaurette/img/angelica.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     backface-visibility: inherit;
+    padding-top: 200px;
 }
 
 .mapa {
-    display: block;
-    margin-right: 20px;
-    margin-left: auto;
-    margin-top: 10%;
-}
-
-.hero2 p {
-    display: inline-block;
-    font-size: 20px;
-    font-family: 'Zilla Slab', serif;
-    width: 45%;
-    margin-left: 50px;
-    margin-top: 100px;
-}
-
-.hero2 img{
     display: inline-block;
     float: right;
-    margin-right: 10px;
-    width: 40%;
-    margin-left: 5px;
+    margin-right: 50px;
+    margin-left: auto;
+    box-shadow:  0px 0px 15px;
+    margin-top: -2.5%;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 310px;
+    padding: 10px;
+    background: rgba(200, 200, 200, 0.5);
+  }
+  
+  label, input, textarea {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: pink;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(237, 135, 152);
+  }
+  
 
 /*CSS FOOTER*/
 
 footer {
     margin-top: 20vh;
     margin: 0 auto;
-    background-color: rgb(200, 200, 200);
-    color: #fff;
+    background-color: #DFCCC2;
+    color: grey;
     padding: 20px;
     text-align: center;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: auto;
   }
  footer li {
     display: inline-block;

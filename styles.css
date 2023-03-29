@@ -19,7 +19,7 @@ header h1 {
     padding-top: 30px;
 }
 
-header ul {
+header a {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -27,13 +27,13 @@ header ul {
     margin-right: 50px;
 }
 
-header li:hover {
+header a:hover {
     font-size: 18px;
     box-shadow: 0px 0px 1px;
     background-color: rgb(210, 210, 210)
 }
 
-header li {
+header a {
     padding: 5px;
     transition: 0.4s;
 }
@@ -41,7 +41,6 @@ header li {
 body {
     background: rgb(200,200,200);
     background: linear-gradient(180deg, rgba(200,200,200,1) 20%, #DFCCC2 100%);
-
 }
 
 .hero1 {
